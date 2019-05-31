@@ -1,0 +1,67 @@
+@import './pages/login/Login';
+@import './pages/dashboard/Dashboard';
+@import './pages/insights/Insights';
+@import './containers/topbar/Topbar';
+@import './containers/sideNav/SideNav';
+@import './containers/charts/Charts';
+@import './components/dropdown/Dropdown';
+@import './components/tableElement/TableElement';
+@import './components/paperList/PaperList';
+
+*{
+    font-family: 'Karla', sans-serif;
+}
+body{
+    background-color: #F5F6FA !important;
+}
+.centered{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.pull-right{
+    float: right;
+}
+.pull-left{
+    float: left;
+}
+.hidden{
+    display: none;
+}
+.visible{
+    display: initial !important;
+}
+.invisible{
+    visibility: hidden !important;
+}
+.fixed{    
+    position: fixed !important;
+}
+.pointer{
+    cursor: pointer;
+}
+.not-allowed{
+    cursor: not-allowed;
+}
+.borderless{
+    border: none !important;
+}
+
+//Theme Colors
+
+.themeRed{
+    background-color: #F25F5C;
+}
+.themeYellow{
+    background-color: #FFE066;
+}
+.themeBlue{
+    background-color: #247BA0;
+}
+.themeGreen{
+    background-color: #70C1B3;
+}

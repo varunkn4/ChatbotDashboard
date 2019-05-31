@@ -1,0 +1,29 @@
+.dropdownWrap{
+    width: 100%;
+    font-size: 14px;
+    //text-align: right;
+    float: right;    
+    // .dropdown__indicators{
+    //     display: none !important;
+    // }
+    .dropdown__control{
+        cursor: pointer;   
+        min-height: 30px !important;    
+        .dropdown__value-container {
+            padding: 0 10px !important;
+            &:focus{
+                outline: none;
+            }
+        } 
+    }
+    &:focus{
+        outline: none;
+    }
+} 
+
+// .dropdownWrap{
+//     width: 100%;
+//     .dropdownTrigger{
+//         background: #FFFFFF !important;
+//     }
+// }
