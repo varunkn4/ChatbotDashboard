@@ -1,0 +1,64 @@
+.sidebarWrap{
+    position: fixed;    
+    height: calc(100vh - 40px);
+    top: 40px;
+    left: 0;    
+    .menuToggle{
+        position: absolute;
+        bottom: 5px;
+        right: 15px;
+        font-size: 20px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .sidebarContent{
+        .menuList{
+            .menuGroup{
+                list-style-type: none;
+                padding: 0;
+                padding-left: 20px;
+                margin-top: 3vh;
+                .menuItem{
+                    span{
+                        color: #FFFFFF;
+                        font-size: 24px;
+                    }
+                    label{
+                        color: #FFFFFF;
+                        font-weight: bold;
+                        vertical-align: middle;
+                        font-size: 20px;
+                        margin-left: 5px;
+                    }
+                    &.collapsedMenu{
+                        text-align: right;
+                        span{
+                            color: #FFFFFF;
+                            font-size: 24px;
+                            margin-right: 10px;
+                        }
+                        label{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.upFront{
+        z-index: 999;
+    }
+}
+.navigationBar{
+    background: #c32439;
+    height: 100%;
+    width: 200px;   
+}
+.rootArea{
+    width: 100vw;    
+}
+.sidebarCollapse{
+    -webkit-transform: translateX(-80%) !important;
+    -ms-transform: translateX(-80%) !important;
+    transform: translateX(-80%) !important;
+}

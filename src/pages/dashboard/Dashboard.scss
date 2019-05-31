@@ -1,0 +1,20 @@
+.chartArea{
+    margin-left: 4vw;
+    padding-top: 7vh;
+    position: relative;
+    z-index: 99;
+    padding-right: 0px;
+    .pageTitle{
+        .mainTitle{
+            color: #122034;
+            font-weight: bold;
+            padding: 0 10px;
+        }
+    }
+}
+.sideBar{
+    position: fixed;    
+    height: calc(100vh - 40px);
+    top: 40px;
+    left: 0;
+}

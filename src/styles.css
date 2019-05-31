@@ -1,0 +1,339 @@
+.loginWrapper {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: hard-light;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.loginWrapper .logoContainer {
+  background-size: cover;
+  background-blend-mode: color;
+  width: 30vw;
+  margin: auto;
+  height: 100vh;
+  padding-top: 10%;
+}
+.loginWrapper .logoContainer img {
+  width: 50%;
+}
+.loginWrapper .loginCredentials {
+  margin: auto;
+  width: 70%;
+  font-size: 16px;
+}
+.loginWrapper .loginCredentials form .form-group input {
+  color: #787878;
+  font-style: italic;
+  font-size: 14px;
+  height: 30px;
+  text-align: center;
+}
+.loginWrapper .loginCredentials form .form-group input:focus {
+  box-shadow: none;
+}
+.loginWrapper .loginCredentials form button {
+  background: #108e1b;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  height: 30px;
+  padding: 0;
+  width: 100%;
+}
+.loginWrapper .loginCredentials form button:focus {
+  box-shadow: none;
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+}
+.backgroundImage img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.chartArea {
+  margin-left: 4vw;
+  padding-top: 7vh;
+  position: relative;
+  z-index: 99;
+  padding-right: 0px;
+}
+.chartArea .pageTitle .mainTitle {
+  color: #122034;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.sideBar {
+  position: fixed;
+  height: calc(100vh - 40px);
+  top: 40px;
+  left: 0;
+}
+
+.topbarContainer {
+  background: #122034;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
+.topbarContainer .logoHome {
+  color: white;
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.topbarContainer .userAvatar {
+  height: 100%;
+  width: 30px;
+  margin: 5px 0;
+  position: relative;
+}
+.topbarContainer .userAvatar img {
+  width: 100%;
+  cursor: pointer;
+}
+.topbarContainer .mainLogo {
+  width: 150px;
+}
+.topbarContainer .mainLogo img {
+  width: 100%;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.topbarContainer .actionItems {
+  margin: 5px 30px 0 0;
+  border-right: 2px solid rgba(255, 255, 255, 0.3);
+}
+.topbarContainer .actionItems i {
+  font-size: 20px;
+  color: #FFFFFF;
+  margin: 5px 15px 0;
+}
+
+.userMenu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+.userMenu .userOptions {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  height: 200px;
+  width: 150px;
+  background: #FFFFFF;
+  z-index: 999999;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.sidebarWrap {
+  position: fixed;
+  height: calc(100vh - 40px);
+  top: 40px;
+  left: 0;
+}
+.sidebarWrap .menuToggle {
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+  font-size: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.sidebarWrap .sidebarContent .menuList .menuGroup {
+  list-style-type: none;
+  padding: 0;
+  padding-left: 20px;
+  margin-top: 3vh;
+}
+.sidebarWrap .sidebarContent .menuList .menuGroup .menuItem span {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+.sidebarWrap .sidebarContent .menuList .menuGroup .menuItem label {
+  color: #FFFFFF;
+  font-weight: bold;
+  vertical-align: middle;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.sidebarWrap .sidebarContent .menuList .menuGroup .menuItem.collapsedMenu {
+  text-align: right;
+}
+.sidebarWrap .sidebarContent .menuList .menuGroup .menuItem.collapsedMenu span {
+  color: #FFFFFF;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.sidebarWrap .sidebarContent .menuList .menuGroup .menuItem.collapsedMenu label {
+  display: none;
+}
+.sidebarWrap.upFront {
+  z-index: 999;
+}
+
+.navigationBar {
+  background: #c32439;
+  height: 100%;
+  width: 200px;
+}
+
+.rootArea {
+  width: 100vw;
+}
+
+.sidebarCollapse {
+  -webkit-transform: translateX(-80%) !important;
+  -ms-transform: translateX(-80%) !important;
+  transform: translateX(-80%) !important;
+}
+
+.chartWrapper .cardTitle {
+  padding: 10px 20px 0;
+}
+.chartWrapper .cardTitle label {
+  color: #122034;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.dropdownWrap {
+  width: 100%;
+  font-size: 14px;
+  float: right;
+}
+.dropdownWrap .dropdown__control {
+  cursor: pointer;
+  min-height: 30px !important;
+}
+.dropdownWrap .dropdown__control .dropdown__value-container {
+  padding: 0 10px !important;
+}
+.dropdownWrap .dropdown__control .dropdown__value-container:focus {
+  outline: none;
+}
+.dropdownWrap:focus {
+  outline: none;
+}
+
+.modalContent {
+  width: 70vw;
+  margin: 10% auto 0;
+  height: auto;
+  background: white;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.modalContent .modalHeader label {
+  color: #122034;
+  font-weight: bold;
+  font-size: 20px;
+}
+.modalContent .modalStat {
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.modalContent .modalStat .statHeader {
+  color: #122034;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.paperContainer {
+  padding: 2px 5px 0 5px;
+  margin-bottom: 10px;
+}
+
+* {
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  background-color: #F5F6FA !important;
+}
+
+.centered {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: initial !important;
+}
+
+.invisible {
+  visibility: hidden !important;
+}
+
+.fixed {
+  position: fixed !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+
+.borderless {
+  border: none !important;
+}
+
+.themeRed {
+  background-color: #F25F5C;
+}
+
+.themeYellow {
+  background-color: #FFE066;
+}
+
+.themeBlue {
+  background-color: #247BA0;
+}
+
+.themeGreen {
+  background-color: #70C1B3;
+}
+
+/*# sourceMappingURL=styles.css.map */

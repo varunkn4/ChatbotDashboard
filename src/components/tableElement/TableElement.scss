@@ -1,0 +1,25 @@
+.modalContent{
+    width: 70vw;
+    margin: 10% auto 0;
+    height: auto;
+    background: white;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    .modalHeader{
+        label{
+            color: #122034;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+    .modalStat{
+        border-radius: 5px;
+        padding: 5px 10px;
+        .statHeader{
+            color: #122034;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+    }
+}
