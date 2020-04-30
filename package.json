@@ -33,7 +33,7 @@
     "echarts-for-react": "^2.0.15-beta.0",
     "file-loader": "^2.0.0",
     "g": "^2.0.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "material-ui-popup-state": "^1.0.1",
     "polyfill": "^0.1.0",
     "popper.js": "^1.14.5",
